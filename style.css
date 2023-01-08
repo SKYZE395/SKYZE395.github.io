@@ -1,0 +1,97 @@
+*{
+		margin: 0%;
+		padding: 0%;
+		box-sizing: border-box;
+		border: none;
+}
+h1{
+	text-align:center;
+	margin-bottom: 250px;
+}
+p{
+	margin-bottom: 0px;
+}
+@media(min-width:992px){
+	div{
+		width:32.03%;
+		border:solid black 1px;
+		box-sizing: border-box;
+		margin:5px;
+		float:left;
+		position:relative;
+	}
+	div#obj1{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#obj2{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#obj3{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+}
+@media(min-width:768px) and (max-width:991px){
+	div{
+		width:47%;
+		box-sizing: border-box;
+		border: solid black 1px;
+		float:left;
+		margin-bottom:10px;
+		position:relative;
+	}
+	div#obj1{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#obj2{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#obj3{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#para2{
+		width:50%;
+		box-sizing: border-box;
+		float:right;
+	}
+	div#para3{
+		margin:0px;
+		width:99%;
+	}
+}
+@media(max-width:767px){
+	div{
+		width:100%;
+		box-sizing: border-box;
+		padding:2px;
+		margin-bottom:10px;
+		border: solid black 1px;
+		position:relative;
+	}
+	div#obj1{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#obj2{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+	div#obj3{
+		width:50px;
+		margin:0px;	
+		float:right;
+	}
+}
