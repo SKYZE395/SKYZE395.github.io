@@ -3,6 +3,7 @@
 		padding: 0%;
 		box-sizing: border-box;
 		border: none;
+		background-color: grey;
 }
 h1{
 	text-align:center;
@@ -20,17 +21,29 @@ p{
 		float:left;
 		position:relative;
 	}
+	p#para1{
+		background-color: cornsilk;
+	}
+	p#para2{
+		background-color: aqua;
+	}
+	p#para3{
+		background-color: lime;
+	}
 	div#obj1{
 		width:50px;
 		margin:0px;	
 		float:right;
+		background-color: orange;
 	}
 	div#obj2{
+		background-color: limegreen;
 		width:50px;
 		margin:0px;	
 		float:right;
 	}
 	div#obj3{
+		background-color: sienna;
 		width:50px;
 		margin:0px;	
 		float:right;
@@ -45,20 +58,32 @@ p{
 		margin-bottom:10px;
 		position:relative;
 	}
+	p#para1{
+		background-color: cornsilk;
+	}
+	p#para2{
+		background-color: aqua;
+	}
+	p#para3{
+		background-color: lime;
+	}
 	div#obj1{
 		width:50px;
 		margin:0px;	
 		float:right;
+		background-color: orange;
 	}
 	div#obj2{
 		width:50px;
 		margin:0px;	
-		float:right;
+		float:right;		
+		background-color: limegreen;
 	}
 	div#obj3{
 		width:50px;
 		margin:0px;	
 		float:right;
+		background-color: sienna;
 	}
 	div#para2{
 		width:50%;
@@ -79,19 +104,31 @@ p{
 		border: solid black 1px;
 		position:relative;
 	}
+	p#para1{
+		background-color: cornsilk;
+	}
+	p#para2{
+		background-color: aqua;
+	}
+	p#para3{
+		background-color: lime;
+	}
 	div#obj1{
 		width:50px;
 		margin:0px;	
 		float:right;
+		background-color: orange;
 	}
 	div#obj2{
 		width:50px;
 		margin:0px;	
 		float:right;
+		background-color:limegreen;
 	}
 	div#obj3{
 		width:50px;
 		margin:0px;	
 		float:right;
+		background-color: sienna;
 	}
 }
