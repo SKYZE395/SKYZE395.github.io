@@ -1,9 +1,9 @@
 *{
-	margin: 0%;
-	padding: 0%;
-	box-sizing: border-box;
-	border: none;
-	background-color: peachpuff;
+		margin: 0%;
+		padding: 0%;
+		box-sizing: border-box;
+		border: none;
+		background-color: peachpuff;
 }
 h1{
 	text-align:center;
@@ -99,6 +99,7 @@ p{
 	div{
 		width:100%;
 		box-sizing: border-box;
+		padding:2px;
 		margin-bottom:10px;
 		border: solid black 1px;
 		position:relative;
