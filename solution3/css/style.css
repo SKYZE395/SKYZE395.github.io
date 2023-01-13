@@ -1,0 +1,53 @@
+body{
+	background-color: peachpuff;
+}
+#header-nav {
+	background-color: lightcyan;
+	border:solid black 2px;
+	border-radius:0;
+}
+
+@media(max-width:767px){
+    .navbar-header{
+    	border:solid black 1px;
+    }
+    #collapsable-nav{	
+	background-color: pink;
+	}
+}
+nav-list{
+	margin-top:0px;
+}
+.navbar-brand{
+	font-size: 36px;
+	font-family: 'Archivo', sans-serif;
+}
+hr{
+	border-color: black;
+	width:100%;
+}
+#main-h{
+	margin-bottom:25px;
+	font-size: 40px;
+	font-family: 'Archivo', sans-serif;
+}
+#h1{
+	margin-bottom:25px;
+	font-size: 30px;
+	font-family: 'Archivo', sans-serif;
+}
+#para-1{
+	background-color: #c5c0fe;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+#para-2{
+	background-color: #c5c0fe;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+#para-3{
+	background-color: #c5c0fe;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
